@@ -80,3 +80,11 @@ for i in [1,2,3]:
 print("that is a while command")
 while True:
     print("this is a while command")
+
+# Functions
+# Adding numbers function
+def add_numbers(a, b):
+    return a + b
+
+result = add_numbers(5, 3)
+print("Result of addition:", result)
