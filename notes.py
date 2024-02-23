@@ -103,3 +103,11 @@ class Dog:
 dog = Dog("Buddy")
 print("Class definition - Dog's name:", dog.name)
 dog.bark()
+
+# Functions
+# Adding numbers function
+def add_numbers(a, b):
+    return a + b
+
+result = add_numbers(5, 3)
+print("Result of addition:", result)
