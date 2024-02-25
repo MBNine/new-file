@@ -70,3 +70,20 @@ p {
 div {
     padding: 15px; /* This sets the padding of <div> elements to 15 pixels. */
 }
+/* New Examples: */
+
+/* 11. Border and Padding: */
+/* We apply a border and padding to a <div> element with the class 'box'. */
+/* The 'border' property adds a border around the element, and the 'padding' property adds space inside the border. */
+.box {
+    border: 2px dashed #333; /* This sets the border of the box to 2 pixels dashed with color #333. */
+    padding: 10px; /* This adds 10 pixels of padding inside the box. */
+}
+
+/* 12. Margin and Background Color: */
+/* We apply margin and background color to a <div> element with the class 'inner-box' inside a container. */
+/* The 'margin' property creates space around the element, and the 'background-color' property sets the background color. */
+.container .inner-box {
+    margin: 20px; /* This adds 20 pixels of margin around the inner box. */
+    background-color: lightblue; /* This sets the background color of the inner box to light blue. */
+}
