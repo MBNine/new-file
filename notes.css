@@ -1,0 +1,72 @@
+/* CSS Stylesheet */
+
+/* 1. Selector and Property: */
+/* Selectors are used to target HTML elements, and properties define the style of those elements. */
+/* In this example, we're targeting all <h1> elements and setting their color to blue. */
+h1 {
+    color: blue; /* This sets the color of <h1> elements to blue. */
+}
+
+/* 2. Class Selector: */
+/* Classes allow us to apply the same styles to multiple elements. */
+/* Here, we define a class named 'highlight' and set its background color to yellow. */
+.highlight {
+    background-color: yellow; /* This sets the background color of elements with the class 'highlight' to yellow. */
+}
+
+/* 3. ID Selector: */
+/* IDs are used to uniquely identify a single element. */
+/* In this example, we target an element with the ID 'main-content' and set its font size to 16 pixels. */
+#main-content {
+    font-size: 16px; /* This sets the font size of the element with the ID 'main-content' to 16 pixels. */
+}
+
+/* 4. Descendant Selector: */
+/* Descendant selectors target elements that are descendants of another specified element. */
+/* In this case, we target <ul> elements that are descendants of <div> elements with the class 'menu'. */
+div.menu ul {
+    list-style-type: none; /* This removes the bullet points from <ul> elements inside <div> elements with the class 'menu'. */
+}
+
+/* 5. Pseudo-class Selector: */
+/* Pseudo-classes are used to define a special state of an element. */
+/* Here, we target <a> elements when hovered over and change their text color to red. */
+a:hover {
+    color: red; /* This sets the text color of <a> elements to red when hovered over. */
+}
+/* Additional Properties: */
+
+/* 6. Background Color: */
+/* The 'background-color' property sets the background color of an element. */
+/* Here, we set the background color of all <p> elements to light gray. */
+p {
+    background-color: lightgray; /* This sets the background color of <p> elements to light gray. */
+}
+
+/* 7. Font Size: */
+/* The 'font-size' property sets the size of the font. */
+/* In this example, we set the font size of <p> elements to 14 pixels. */
+p {
+    font-size: 14px; /* This sets the font size of <p> elements to 14 pixels. */
+}
+
+/* 8. Border: */
+/* The 'border' property sets the border of an element. */
+/* Here, we set the border of all <div> elements to 2 pixels solid black. */
+div {
+    border: 2px solid black; /* This sets the border of <div> elements to 2 pixels solid black. */
+}
+
+/* 9. Margin: */
+/* The 'margin' property sets the margin space around an element. */
+/* In this example, we set the top and bottom margin of <p> elements to 10 pixels and the left and right margin to 20 pixels. */
+p {
+    margin: 10px 20px; /* This sets the top and bottom margin to 10 pixels and the left and right margin to 20 pixels. */
+}
+
+/* 10. Padding: */
+/* The 'padding' property sets the padding space inside an element. */
+/* Here, we set the padding of all <div> elements to 15 pixels. */
+div {
+    padding: 15px; /* This sets the padding of <div> elements to 15 pixels. */
+}
