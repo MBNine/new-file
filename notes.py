@@ -67,6 +67,8 @@ for i in [1,2,3]:
 print("that is a while command")
 while True:
     print("this is a while command")
+    break
+
 
 # New Code with Explanations:
 
@@ -226,3 +228,23 @@ numbers[1] = 10
 array_length = len(numbers)
 
 # 'array_length' will now hold the value 5, which is the length of the 'numbers' array.
+
+#this is try command it tries a code unless there is a value error so it makes another code
+try:
+    print("hi")
+except ValueError:
+    print("This is not a number")
+
+#this is an if statement with in to check if a variable is equal to one of the given values.
+nos = 2
+nos2 = [1, 2, 3, 4, 5]
+if nos in nos2:
+    print("yes")
+
+#this is an function with attribute (is_integer) to check if it is an integer
+x = float(2)
+if x.is_integer() == True:
+    print("yes")
+
+
+
